@@ -1,4 +1,9 @@
+import React from 'react';
 import './App.css';
+import {useState } from 'react';
+import { LoginContext } from './Components/LoginContext/LoginContext';
+import Login from './Components/Login/Login';
+import Profile from './Components/Profile/Profile';
 
 function App() {
   const [username,setUsername] = useState("");
